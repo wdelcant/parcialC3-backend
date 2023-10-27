@@ -7,6 +7,8 @@ public class Odontologo {
     private String apellido;
 
 
+
+
     public Odontologo() {
     }
     public Odontologo(int id, int numeroMatricula, String nombre, String apellido) {
@@ -14,6 +16,7 @@ public class Odontologo {
         this.numeroMatricula = numeroMatricula;
         this.nombre = nombre;
         this.apellido = apellido;
+
     }
 
     public int getId() {
@@ -46,5 +49,12 @@ public class Odontologo {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    @Override
+    public String toString() {
+        return "Odontologo " +
+                nombre + "" + apellido;
+
     }
 }
