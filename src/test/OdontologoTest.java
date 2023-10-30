@@ -96,12 +96,16 @@ public class OdontologoTest {
     public void testearDAOMemory() {
 
 
+
+
     }
 
     @Test
     public void testearH2() {
 
         // lo mismo de arriba pero DAO en H2
+
+
 
 
     }
